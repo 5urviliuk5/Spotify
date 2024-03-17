@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f82e518a364de6446a8ce264d76ccf73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 50
+  frequency: 0
   source: {fileID: 1085065264}
 --- !u!4 &1085065263
 Transform:
