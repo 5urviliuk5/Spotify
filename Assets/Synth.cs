@@ -9,7 +9,7 @@ public class Synth : MonoBehaviour
 
     void Start()
     {
-        var clip = AudioClip.Create("Sin", 44100 * 3, 1, 44100, false);
+        var clip = AudioClip.Create("Sin", 44100 * 3, 1, 44100, false); // 3 - seconds
 
         var samples = new float[44100 * 3];
         for (int i = 0; i < samples.Length; i++)
